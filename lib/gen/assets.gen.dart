@@ -12,9 +12,18 @@ import 'package:flutter/services.dart';
 class $AssetsImgGen {
   const $AssetsImgGen();
 
+  $AssetsImgBackgroundGen get background => const $AssetsImgBackgroundGen();
   $AssetsImgIconsGen get icons => const $AssetsImgIconsGen();
   $AssetsImgPostsGen get posts => const $AssetsImgPostsGen();
   $AssetsImgStoriesGen get stories => const $AssetsImgStoriesGen();
+}
+
+class $AssetsImgBackgroundGen {
+  const $AssetsImgBackgroundGen();
+
+  /// File path: assets/img/background/splash.png
+  AssetGenImage get splash =>
+      const AssetGenImage('assets/img/background/splash.png');
 }
 
 class $AssetsImgIconsGen {
