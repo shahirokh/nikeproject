@@ -21,6 +21,10 @@ class $AssetsImgGen {
 class $AssetsImgBackgroundGen {
   const $AssetsImgBackgroundGen();
 
+  /// File path: assets/img/background/onboarding.png
+  AssetGenImage get onboarding =>
+      const AssetGenImage('assets/img/background/onboarding.png');
+
   /// File path: assets/img/background/splash.png
   AssetGenImage get splash =>
       const AssetGenImage('assets/img/background/splash.png');
