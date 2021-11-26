@@ -37,6 +37,14 @@ class $AssetsImgIconsGen {
   AssetGenImage get articles =>
       const AssetGenImage('assets/img/icons/Articles.png');
 
+  /// File path: assets/img/icons/Facebook.png
+  AssetGenImage get facebook =>
+      const AssetGenImage('assets/img/icons/Facebook.png');
+
+  /// File path: assets/img/icons/Google.png
+  AssetGenImage get google =>
+      const AssetGenImage('assets/img/icons/Google.png');
+
   /// File path: assets/img/icons/Home.png
   AssetGenImage get home => const AssetGenImage('assets/img/icons/Home.png');
 
@@ -49,6 +57,10 @@ class $AssetsImgIconsGen {
   /// File path: assets/img/icons/Search.png
   AssetGenImage get search =>
       const AssetGenImage('assets/img/icons/Search.png');
+
+  /// File path: assets/img/icons/Twitter.png
+  AssetGenImage get twitter =>
+      const AssetGenImage('assets/img/icons/Twitter.png');
 
   /// File path: assets/img/icons/category_1.png
   AssetGenImage get category1 =>
